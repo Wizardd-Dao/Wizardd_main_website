@@ -13,11 +13,13 @@ function MyApp({ Component, pageProps }) {
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="cover"
-        h="3660px"
+        h="3800px"
         w="100%"
         position="relative"
         zIndex={0}
         overflowX="hidden"
+        padding='4'
+        textAlign='center'
       >
         <Box zIndex={1}>
           <Header />

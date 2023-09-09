@@ -18,8 +18,8 @@ export default function SecuritySec() {
                     <Text color='white'>Wizardd provides security audit services for smart contracts and De-Fi applications. This is crucial to ensure the safety of users' assets and the integrity of the applications.</Text>
                 </Flex>
             </Flex>
-            <Flex gap='5rem' >
-                <Flex flexDirection='column' maxW='600' border='1px solid white' padding='4' borderRadius='md' flex='1' >
+            <Flex flexDir={['column', 'column', 'column', 'row']} gap={['0', '0', '0', '4']} >
+                <Flex flexDirection='column' maxW='600' border='1px solid white' padding='4' borderRadius='md' flex='1' mb='8' >
                     <Flex justifyContent='space-between' alignItems='center' mb={4} >
                         <Text fontSize='xl' color='white'>Audit Report</Text>
                         <Image src='' />
@@ -35,8 +35,8 @@ export default function SecuritySec() {
                     <Divider mb='4' />
                     <Text color='white'>Wizardd provides ongoing support after the audit to help developers implement the recommended fixes and ensure the application is fully secure before being launched.</Text>
                 </Flex>
-            </Flex>
+            </Flex >
 
-        </Flex>
+        </Flex >
     )
 }

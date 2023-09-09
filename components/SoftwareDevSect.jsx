@@ -2,7 +2,7 @@ import { Image, Text, Flex, Divider } from '@chakra-ui/react'
 
 export default function SoftwareDevSec() {
     return (
-        <Flex maxW='1120px' margin='auto' height='100vh' justifyContent='center' mt='10' flexDir='column' gap='10' >
+        <Flex maxW='1120px' margin='auto' height='100vh' justifyContent='center' mt='10' flexDir='column' gap='10'>
             <Flex alignItems='center' gap={4} justifyContent='center' >
                 <Image src='potion_blue.svg' />
                 <Text color='white' fontSize='2xl' fontWeight='bold'>Software Development</Text>
@@ -16,7 +16,7 @@ export default function SoftwareDevSec() {
                     <Text color='white'>Wizardd offers consulting services for companies and developers who want to implement Layer 2 solutions, NFTs, tokens and DeFi, but need expert guidance and support.</Text>
                 </Flex>
             </Flex>
-            <Flex gap='5rem' >
+            <Flex flexDir={['column', 'column', 'column', 'row']} gap={['8', '0', '0', '4']} >
                 <Flex flexDirection='column' maxW='600' border='1px solid white' padding='4' borderRadius='md' flex='1' >
                     <Flex justifyContent='space-between' alignItems='center' mb={4} >
                         <Text fontSize='xl' color='white'>Tokens</Text>
